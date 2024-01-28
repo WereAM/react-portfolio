@@ -2,6 +2,7 @@ import '../App.css';
 import React from 'react';
 import { BiLogoGithub, BiLogoLinkedin } from "react-icons/bi";
 import profile from '../Images/profile.jpg';
+import cv from '../CV/cv.pdf';
 
 export default function Home() {
     return(
@@ -29,7 +30,7 @@ export default function Home() {
                     </a>
                 </div>
 
-                <a href="CV/cv.pdf" class="btn" target="_blank">Michelle's CV</a>
+                <a href={cv} class="btn" target="_blank">Michelle's CV</a>
 
             </div>
 
