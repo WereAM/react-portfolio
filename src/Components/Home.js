@@ -1,5 +1,7 @@
 import '../App.css';
 import React from 'react';
+import { BiLogoGithub, BiLogoLinkedin } from "react-icons/bi";
+import profile from '../Images/profile.jpg';
 
 export default function Home() {
     return(
@@ -7,18 +9,23 @@ export default function Home() {
             <div className="home-content">
                 <h4>Meet the developer,</h4>
                 <h1>Michelle Were Ambunya</h1>
-                <h3><span>Front End Developer; Web & Mobile</span></h3>
-                <p>Michelle is a Computer Science student. She is proficient in web and mobile development using Kotlin, HTML, CSS and JavaSript.
+                <h3>Front End Developer; Web & Mobile</h3>
+                <p>Michelle is a Computer Science student. She is proficient in web and mobile development using Kotlin, HTML, CSS and JavaScript.
                 Michelle is familiar with frameworks such as React. 
-                She likes to create unique and aesthetic mobile and web applications that inspire user interaction. </p>
+                She likes to create unique and aesthetic mobile and web applications that inspire user interaction.
                 <br />
+                She likes to create unique and aesthetic mobile and web applications that inspire user interaction. 
+                <br/>
+                <br/>
+                She's also curious about the Internet of Things(IoT) and enjoys connecting Arduino boards in her free time
+                </p>
 
                 <div className="socials">
                     <a href="https://www.linkedin.com/in/michelle-ambunya/" target="_blank" rel='noopener noreferrer'>
-                        <i class="bx bxl-linkedin"></i>
+                    <BiLogoLinkedin />
                     </a>
                     <a href="https://github.com/WereAM" target="_blank" rel='noopener noreferrer'>
-                        <i class="bx bxl-github"></i>
+                    <BiLogoGithub />
                     </a>
                 </div>
 
@@ -27,7 +34,7 @@ export default function Home() {
             </div>
 
             <div className="profile">
-                <img src="Images/profile.jpg" alt="profile"/>
+                <img src={profile} alt="profile"/>
             </div>
 
         </section>
