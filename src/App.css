@@ -27,7 +27,7 @@
   width: 100%;
   padding: 2rem 5%;
   background: var(--bg-color);
-  display: flex; 
+  display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 100;
@@ -38,7 +38,6 @@
   color: var(--text-color);
   font-weight: 600;
   cursor: default;
-  color: var(--text-color);
 }
 
 .navbar a{
@@ -58,6 +57,7 @@
 section{
   min-height: 100vh;
   padding: 10rem 10% 2rem;
+  color: var(--text-color);
 }
 
 .home{
