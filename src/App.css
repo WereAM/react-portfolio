@@ -47,14 +47,17 @@
   margin-left: 4rem;
 }
 
-.navbar a:hover,
-.navbar a.active{
+.navbar a:hover{
   color: var(--active-color);
+}
+
+.navbar a.active{
+  background: var(--second-bg-color);
 }
 
 section{
   min-height: 100vh;
-  padding: 10rem 15% 2rem;
+  padding: 10rem 10% 2rem;
 }
 
 .home{

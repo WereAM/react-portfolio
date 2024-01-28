@@ -6,7 +6,7 @@ export default function Connect(){
         <section className="connect" id="connect">
             <h2 className="heading">Connect With Michelle</h2>
 
-            <form action="#">
+            <form action="https://formsubmit.co/el/sefole" method="POST">
                 <div className="input-form">
                     <input type="text" placeholder="Full Name" />
                     <input type="email" placeholder="Email Address" />

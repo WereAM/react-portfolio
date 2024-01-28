@@ -1,6 +1,7 @@
 import '../App.css';
 import '../App.css';
 import React from 'react';
+import { Link, NavLink } from 'react-router-dom';
 
 export default function Header() {
     return(
@@ -9,9 +10,9 @@ export default function Header() {
             <a href="#home" className="logo">Michelle's Portfolio</a>
 
             <nav className="navbar">
-                <a href="#home" className="active">Home</a>
-                <a href="#projects">Projects</a>
-                <a href="#connect">Connect</a>
+                <NavLink to ="/">Home</NavLink>
+                <NavLink to ="projects">Projects</NavLink>
+                <NavLink to ="connect">Connect</NavLink>
             </nav>
         </header>
         </>
