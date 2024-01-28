@@ -205,3 +205,52 @@ section{
   font-size: 2rem;
   color: var(--text-color);
 }
+
+.connect{
+  background-color: var(--bg-color);
+}
+
+/* .connect h2{
+  margin-bottom: 3rem; 
+} */
+
+.connect form{
+  max-width: 80rem;
+  margin: 1rem auto;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.connect form .input-form{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.connect form .input-form input,
+.connect form textarea{
+  width: 100%;
+  padding: 1.5rem;
+  font-size: 2rem;
+  color: white;
+  background: var(--third-bg-color);
+  border-radius: .9rem;
+  margin: .5rem 0;
+}
+
+::placeholder{
+  color: black;
+}
+
+/* .connect form .input-form input{
+  width: 49%;
+} */
+
+.connect form textarea{
+  resize: none;
+}
+
+.connect form .btn{
+  margin-top: 2rem;
+  cursor: pointer;
+}
