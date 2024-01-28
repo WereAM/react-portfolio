@@ -54,7 +54,7 @@
 
 section{
   min-height: 100vh;
-  padding: 10rem 7% 2rem;
+  padding: 10rem 15% 2rem;
 }
 
 .home{
@@ -152,6 +152,7 @@ section{
   box-shadow: 0 0 1rem var(--bg-color);
   overflow: hidden;
   display: flex;
+  width: 500px;
 }
 
 .projects-box img{
@@ -210,10 +211,6 @@ section{
   background-color: var(--bg-color);
 }
 
-/* .connect h2{
-  margin-bottom: 3rem; 
-} */
-
 .connect form{
   max-width: 80rem;
   margin: 1rem auto;
@@ -242,10 +239,6 @@ section{
   color: black;
 }
 
-/* .connect form .input-form input{
-  width: 49%;
-} */
-
 .connect form textarea{
   resize: none;
 }
@@ -253,4 +246,14 @@ section{
 .connect form .btn{
   margin-top: 2rem;
   cursor: pointer;
+}
+
+.footer{
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--second-bg-color);
+  height: 5vh;
+  font-size: 20px;
 }
