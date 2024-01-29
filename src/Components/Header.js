@@ -1,7 +1,7 @@
 import '../App.css';
 import '../App.css';
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import {NavLink } from 'react-router-dom';
 
 export default function Header() {
     return(
@@ -13,6 +13,7 @@ export default function Header() {
                 <NavLink to ="/">Home</NavLink>
                 <NavLink to ="projects">Projects</NavLink>
                 <NavLink to ="connect">Connect</NavLink>
+                <NavLink to="fetch">Fetch</NavLink>
             </nav>
         </header>
         </>
